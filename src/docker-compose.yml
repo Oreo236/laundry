@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  laundry:
+    image: ore326/hack_challenge_cu:v1.0.0
+
+    ports:
+      - "8000:8000"
